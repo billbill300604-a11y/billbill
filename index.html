@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-briefcase"></i> Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#highlights"><i class="fas fa-star"></i> Highlights</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="frame">
+        <main>
+            <section id="home">
+                <h2><i class="fas fa-home"></i> Home</h2>
+                <p>Welcome to my personal portfolio website!</p>
+                <img src="5b48660cc1ea1ff4dda4d121b048f330 (1).jpg" alt="MCK Artist" class="featured-image">
+            </section>
+            <section id="about">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <p>Hi, I'm a web developer passionate about creating awesome websites. Inspired by Vietnamese artists like MCK.</p>
+                <img src="719b14041ab18b518211af8fcd1d90eb.jpg" alt="MCK Artist" class="profile-image">
+            </section>
+            <section id="highlights">
+                <h2><i class="fas fa-star"></i> Highlights</h2>
+                <p>Here are some of my key achievements and skills:</p>
+                <ul class="highlights-list">
+                    <li>
+                        <strong>Project A:</strong> Developed a full-stack web application using React and Node.js, which increased user engagement by 40%.
+                    </li>
+                    <li>
+                        <strong>Skill: Frontend Development</strong> - Proficient in HTML, CSS, JavaScript, and frameworks like Bootstrap and Tailwind CSS.
+                    </li>
+                    <li>
+                        <strong>Award:</strong> Won first place in a hackathon for innovative UI/UX design.
+                    </li>
+                    <li>
+                        <strong>Experience:</strong> 5+ years in web development, working on projects for startups and enterprises.
+                    </li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2><i class="fas fa-envelope"></i> Contact</h2>
+                <p>Email: billbill300604@email.com</p>
+                <button onclick="showMessage()"><i class="fas fa-paper-plane"></i> Click Me!</button>
+                <p id="message" style="display:none;">Thanks for clicking!</p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
